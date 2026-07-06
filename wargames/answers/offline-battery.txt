@@ -1,0 +1,7 @@
+21:49:54 START daily=test-model embed=test-embed dryrun=1
+21:49:54 FAIL offline generation: 
+21:49:54 offline gen tok/s: n/a
+21:49:54 FAIL offline embedding: 
+21:49:54 note: no ollama lines in lsof -i
+21:49:54 OK no non-localhost ollama connections
+21:49:54 END battery done
