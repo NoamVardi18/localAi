@@ -1,7 +1,9 @@
-21:49:54 START daily=test-model embed=test-embed dryrun=1
-21:49:54 FAIL offline generation: 
-21:49:54 offline gen tok/s: n/a
-21:49:54 FAIL offline embedding: 
-21:49:54 note: no ollama lines in lsof -i
-21:49:54 OK no non-localhost ollama connections
-21:49:54 END battery done
+15:48:46 START daily=qwen3:30b-a3b embed=qwen3-embedding:latest dryrun=0
+15:48:54 OK offline confirmed (ping 1.1.1.1 failed as expected)
+15:49:00 OK offline generation
+15:49:00 offline gen tok/s: 83.4
+15:49:02 OK offline embedding
+ollama      747 vardi    3u  IPv4 0xc5f0ec76f2cd3980      0t0  TCP 127.0.0.1:11434 (LISTEN)
+15:49:03 OK no non-localhost ollama connections
+15:49:11 OK wifi restored (2x5s)
+15:49:11 END battery done
